@@ -1,0 +1,50 @@
+.logo {
+    width: 15%;
+}
+.logo>img {
+    width: 50%;
+}
+.container-favorites{
+    margin-top: 20px;
+}
+.title{
+    text-align: center;
+    color: rgb(216, 96, 49);
+}
+.subtitle-favorites{
+    font-weight: bold;
+}
+.magin-t-block{
+    margin-top: 40px;
+}
+.section-form{
+    text-align: center;
+    margin: 150px;
+}
+.col img {
+    border-radius: 15px;
+    gap: 12px;
+}
+
+.col video{
+width: 456px;
+height: 342px;
+}
+
+.mb-3{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+    
+}
+
+.mb-3 label{
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.magin-t-block-form{
+    background-color: rgb(100, 175, 90);
+
+}
+
