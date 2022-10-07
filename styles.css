@@ -22,7 +22,7 @@ h1 {
     font-size: 60px;
     margin: 50px 0 25px;
     display: block;
-    font-size: 30px;
+    font-size: 60px;
 }
 
 
@@ -53,11 +53,14 @@ h2{
     font-family: 'Ultra', serif;
     color: rgb(80, 203, 125);
     margin: 30px;
-    width: 100%;
+   font-size: 40px;    
 }
 
 .subtitle-favorites {
     font-weight: bold;
+    font-family: 'Peralta', cursive;
+    margin: 10px;
+    font-size: 20px;
 }
 
 .magin-t-block {
@@ -74,7 +77,7 @@ h2{
     border-radius: 15px;
     gap: 12px;
     width: 100%;
-  height: 100%
+    height: 100%
 }
 
 .video {
@@ -118,55 +121,30 @@ label{
     margin: 10px;
 }
 
+img{
+border-radius: 15px;
+}
 
 
-@media (max-width: 575){
+
+@media (max-width: 575px) {
 
     h1 {
-        font-size: 20px;
-        text-align: center;
+        font-size: 25px;
     }
 
     h2{
+        text-align: center;
         font-size: 20px;
     }
 
-    .col-prom img {
-        width: 100%;
-        min-height: 189px;
-    }
-
-    .col{
-        width: 50%;
-        }
 
     .subtitle-favorites{
-        font-size: 15px;
-        font-family: 'Peralta', cursive;
-        margin: 10px;
+        font-size: 12px;
+        margin: 5px;
     }
 }
 
-
-
-@media (min-width: 375px){
-
-
-    .col-prom img {
-        width: 100%;
-        min-height: 92.03px;
-    }
-
-    h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    h2{
-        font-size: 20px;
-    }
-
-}
 
 
 
