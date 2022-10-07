@@ -19,7 +19,7 @@
 }
 .section-form{
     text-align: center;
-    margin: 150px;
+    margin: 40px;
 }
 .col img {
     border-radius: 15px;
@@ -30,21 +30,12 @@
 width: 456px;
 height: 342px;
 }
-
 .mb-3{
     display: flex;
     gap: 20px;
-    align-items:center;
-    
+    align-items:center;    
 }
-
 .mb-3 label{
     align-items: center;
     font-family: sans-serif;
 }
-
-.magin-t-block-form{
-    background-color: rgb(100, 175, 90);
-
-}
-
