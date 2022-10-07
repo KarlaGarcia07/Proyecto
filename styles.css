@@ -126,7 +126,6 @@ border-radius: 15px;
 }
 
 
-
 @media (max-width: 575px) {
 
     h1 {
@@ -138,10 +137,16 @@ border-radius: 15px;
         font-size: 20px;
     }
 
-
     .subtitle-favorites{
         font-size: 12px;
         margin: 5px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction:column;
+	}
+
+    .nav-link{
+        font-size: 15px;
     }
 }
 
