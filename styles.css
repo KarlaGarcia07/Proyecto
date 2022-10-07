@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
+
 .logo {
     width: 15%;
 }
@@ -19,7 +20,9 @@ h1 {
     text-align: center;
     font-family: 'Bungee Spice', cursive;
     font-size: 60px;
-    margin: 25px;
+    margin: 50px 0 25px;
+    display: block;
+    font-size: 30px;
 }
 
 
@@ -50,6 +53,7 @@ h2{
     font-family: 'Ultra', serif;
     color: rgb(80, 203, 125);
     margin: 30px;
+    width: 100%;
 }
 
 .subtitle-favorites {
@@ -70,12 +74,13 @@ h2{
     border-radius: 15px;
     gap: 12px;
     width: 100%;
-    height: 360px;
+  height: 100%
 }
 
 .video {
     border-radius: 15px;
     width: 100%;
+    align-items: center;
 }
 
 .col-prom {
@@ -88,7 +93,7 @@ h2{
 .mb-3 {
     display: flex;
     gap: 20px;
-    align-items: center;
+    align-items: baseline;
 }
 
 .mb-3 label {
@@ -108,5 +113,63 @@ label{
 
 .btn-danger{
     background-color: rgb(80, 203, 125);
-    color: white
+    color: white;
+    align-items: center;
+    margin: 10px;
 }
+
+
+
+@media (max-width: 575){
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .col-prom img {
+        width: 100%;
+        min-height: 189px;
+    }
+
+    .col{
+        width: 50%;
+        }
+
+    .subtitle-favorites{
+        font-size: 15px;
+        font-family: 'Peralta', cursive;
+        margin: 10px;
+    }
+}
+
+
+
+@media (min-width: 375px){
+
+
+    .col-prom img {
+        width: 100%;
+        min-height: 92.03px;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
