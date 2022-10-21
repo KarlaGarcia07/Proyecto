@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Proyecto Final</title>
+    <!-- link para usar bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css" type="text/css">
+    <meta name="viewport" content="with=device-width,initial-scale=1.0,user-scalable=no" />
+
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">
+                    <img src="../img/chilis.png" alt="img logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" data-lity="" href="#" >RESERVAR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">MENÚ</a>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">UBICACION</a>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">PROMOCIONES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">PROGRAMA DE LEALTAD</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    <section class="container-favorites">
+        <article class="favorite">
+            <h1 class="title">RESERVACIÓN</h1>
+
+            <form class="section-form">
+                <h2>Ingresa la información para tu reserva.</h2>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col"><br> </br>
+        
+                            
+                            <div class="mb-3 row">
+                                <label for="name" class="col-sm-3 col-form-label">Apellido Paterno:</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="firstName" placeholder="ingresa primer apellido">
+                                </div>
+                            </div>
+        
+                            <div class="mb-3 row">
+                                <label for="name" class="col-sm-3 col-form-label">Apellido Materno:</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="lastName" placeholder="ingresa segundo apellido">
+                                </div>
+                            </div>
+        
+                            <div class="mb-3 row">
+                                <label for="name" class="col-sm-3 col-form-label">Nombre (s)</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="name" placeholder="ingresa nombre">
+                                </div>
+                            </div>
+        
+                            <div class="mb-3 row">
+                                <label for="name" class="col-sm-3 col-form-label">Selecciona sucursal:</label>
+                                <div class="col-sm-8">
+                                    <select class="form-select" aria-label="Default select example" id="restaurant">
+                                        <option value="1">Chili's parque tezontle</option>
+                                        <option value="2">Chili's parque toreo</option>
+                                        <option value="3">Chili's forum buenavista</option>
+                                    </select>
+                                </div>
+                            </div>
+        
+                            <div class="mb-3 row">
+                                <label for="phone" class="col-sm-3 col-form-label">Teléfono:</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="phone" placeholder="teléfono">
+                                </div>
+                            </div>
+        
+                            <div class="mb-3 row">
+                                <label for="mail" class="col-sm-3 col-form-label">Correo:</label>
+                                <div class="col-sm-8">
+                                    <input type="email" class="form-control" id="mail" placeholder="correo electronico">
+                                </div>
+                            </div>
+        
+                            <input  type="submit" name="ventana_Agendar" value="Agendar" id="rptTiendas_btnAgendar_0" class="btn btn-danger">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </article>
+
+        <aside class="magin-t-block">
+            <div class="container text-center">
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Apellido Paterno</th>
+                                <th scope="col">Apellido Materno</th>
+                                <th scope="col">Nombre (s)</th>
+                                <th scope="col">Sucursal</th>
+                                <th scope="col">Telefono</th>
+                                <th scope="col">Correo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>
+                                    <div id="firstNameReservation"></div>
+                                </td>
+                                <td>
+                                    <div id="lastNameReservation"></div>
+                                </td>
+                                <td>
+                                    <div id="nameReservation"></div>
+                                </td>
+                                <td>
+                                    <div id="restaurantReservation"></div>
+                                </td>
+                                <td>
+                                    <div id="phoneReservation"></div>
+                                </td>
+                                <td>
+                                    <div id="mailReservation"></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </aside>
+
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <script src="./formulario.js"></script>
+</body>
+
+</html>
